@@ -17,15 +17,15 @@ public class Microwave {
 		switch(item) {
 		
 		case 1 :
-			System.out.println("recommemded heating time "+heatingTime+" c");
+			System.out.println("recommemded heating time "+heatingTime+" min");
 			break;
 		case 2 :
 			recommendedTime = heatingTime + (heatingTime*50/100);
-			System.out.println("recommemded heating time "+recommendedTime+" c");
+			System.out.println("recommemded heating time "+recommendedTime+" min");
 			break;
 		case 3 :
-			recommendedTime = heatingTime*heatingTime;
-			System.out.println("recommemded heating time "+recommendedTime+" c");
+			recommendedTime = heatingTime*2;
+			System.out.println("recommemded heating time "+recommendedTime+" min");
 			break;
 		default :
 			System.out.println(" max 3 item recommended ");
